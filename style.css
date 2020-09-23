@@ -165,6 +165,18 @@ img{
     justify-content: center;
 }
 
+.index-header{
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    justify-content: center;
+}
+
+.index-p{
+    font-family: 'Varta', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
 
 
 h1{
@@ -182,6 +194,7 @@ p{
     font-size: 16px;
     text-align: justify;
 }
+
 
 .header-p{
     font-family: 'Varta', sans-serif;
@@ -210,28 +223,16 @@ b{
 /* Calendar style */
 
 .calendar{
-    padding: 10px 75px 1px 70px;
-    text-align: center
+    margin: auto
 }
 
 /* Outreach Styles */
 
-/* .outreach-event{
-    display: flex;
-    width: 675px;
-    padding: 20px 50px 20px 50px;
-    grid-template-columns: 1fr 0.75fr;
-    padding-top: 20px;
-    margin: auto;
-    align-items: center;
-} */
-
 .outreach-event{
     display: grid;
-    width: 900px;
-    /* padding: 20px 150px 20px 50px; */
+    width: 700px;
     padding-top: 20px;
-    grid-template-columns: 0.5fr 0.50fr;
+    grid-template-columns: 0.4fr 0.60fr;
     vertical-align: middle;
     margin: auto;
     
@@ -284,7 +285,7 @@ a:hover {
 
 .a-nav-link:link{
     text-decoration: none;
-    color:#70757a; 
+    color:#77959a;
 }
 
 .container{
