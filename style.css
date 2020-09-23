@@ -15,6 +15,24 @@ body{
     box-shadow: 0 8px 6px -10px #999;
 }
 
+.a-nav-link:link{
+    text-decoration: none;
+    color:#70757a; 
+}
+
+a:link {
+    text-decoration: none;
+    color: #236dd2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a-nav-link:hover{
+    text-decoration: none;
+}
+
 .right-side{
     display: flex;
 }
@@ -266,20 +284,6 @@ ul{
 .wellness-content-left{
     padding-top:10px;
     margin:auto;
-}
-
-
-a:link {
-    text-decoration: none;
-    color: #236dd2;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.a-nav-link:hover{
-    text-decoration: none;
 }
 
 .container{
